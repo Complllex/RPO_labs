@@ -44,6 +44,6 @@ target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
 target_link_libraries(${CMAKE_PROJECT_NAME}
         spdlog
         mbedcrypto
-        # List libraries link to the target library
+        ### List libraries link to the target library
         android
         log)
